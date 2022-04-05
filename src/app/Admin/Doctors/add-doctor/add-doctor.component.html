@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+   <div id="alignement">
+    <div class="dark-edition">
+ 
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                
+                <div class="card-body">
+                  
+      <form>
+   
+        <div class="container">
+
+          <div class="avatar-upload">
+              <div class="avatar-edit">
+                  <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+              
+                       <label for="imageUpload"></label>
+                    
+
+              </div>
+              <div class="avatar-preview">
+                  <div id="imagePreview" style="background-image: url(./assets/imagesD/faces/user.jpg);">
+                  </div>
+              </div>
+          </div>
+        </div>
+                            <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Nom </label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Email </label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Adresse  </label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Numéro de Télephone</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Mot de passe</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <div id="label1">
+                              <br>
+                          <label class="bmd-label-floating" style="margin-left: 0px;margin-top: 15px;">Genre</label></div>
+                          <input type="radio" value="male" name="gender" id="homme1"> <label id="label-Homme" >Homme</label> 
+                          <input type="radio" value="female" name="gender" id="femme1"> <label id="label-Femme">Femme</label>
+                
+                        
+                        </div>
+                      </div>
+                    </div>
+                   <br><br>
+                    <div align="center"> 
+                    <button class="btn btn-success" (click) = "onClear()">Save</button>&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-danger" (click)="onClose()" >Cancel</button></div>
+                    <div class="clearfix"></div>
+                  </form>
+                </div>  
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  </body>
+  </html>
